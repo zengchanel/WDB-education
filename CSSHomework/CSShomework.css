@@ -1,0 +1,183 @@
+/* Ignore following classes */
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dbdbdb;
+}
+
+#intro{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+}
+
+.insideborder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.para{
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+h2, h3{
+    font-size: large;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Classes that you might find useful */
+/* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+
+
+.flag{
+    position: relative;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 5rem;
+}
+
+.horiz{
+    display: flex;
+    flex-direction: row;
+}
+
+.twovert{
+    height: 50%;
+}
+
+.threevert{
+    height: 33.3%;
+}
+
+.threehoriz{
+    width: 33.3%
+}
+
+.skinny{
+    height: 17.5%;
+}
+
+.fat{
+    height: 30%;
+}
+
+
+.circle{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px
+}
+
+#eagle {
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45%;
+    width: 85%;
+    margin-top: 70px;
+    
+}
+
+.center {
+    position: absolute;
+    height: 70px;
+    width: 500px;
+    top: 110px;
+}
+
+.vert {
+    position: absolute;
+    height: 300px;
+    width: 70px;
+    left: 130px;
+}
+
+.srilanka {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: row;
+    height: 260px;
+    width: 130px;
+
+}
+
+.twohoriz {
+    width: 50%;
+}
+
+.rightside {
+    height: 260px;
+    width: 300px;
+}
+
+/* Colors/ Feel free to add your own! */
+
+.white {
+    background-color: white;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: rgb(255, 145, 0);
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.lightblue{
+    background-color: lightblue;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.mediumblue{
+    background-color:rgb(96, 159, 218)
+}
+
+.gold{
+    background-color: gold;
+}
+
+.maroon {
+    background-color: maroon;
+}
+
