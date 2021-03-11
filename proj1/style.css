@@ -1,0 +1,155 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(255, 250, 240);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    font-weight: 300;
+}
+
+.leftside {
+    position: absolute;
+    display: inline;
+    z-index: -1;
+    background-color: rgb(255, 250, 240);
+    height: 100vh;
+    width: 70vw;
+    top: 0;
+    left: 0;
+}
+
+.rightside {
+    position: absolute;
+    display: inline;
+    z-index: -1;
+    background-color: rgba(44, 44, 44, 1);
+    height: 100vh;
+    width: 30vw;
+    right: 0;
+    top: 0;
+}
+
+.top-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+#name-logo {
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.subpages {
+    display: flex;
+    margin-left: auto;
+}
+
+.top-link {
+    color: rgb(255, 250, 240);
+    margin-right: 30px;
+}
+
+.intro {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+}
+
+.short-bio {
+    font-size: x-large;
+    width: 900px;
+    margin-right: 13%;
+}
+
+#bio {
+    margin-bottom: 40px;
+}
+
+#contact-button {
+    background: rgba(44, 44, 44, 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    color: rgb(255, 250, 240);
+    font-weight: 300;
+    font-size: large;
+}
+
+#mypic {
+    margin-right: 16vw;
+    height: auto;
+    width: auto;
+    max-height: 400px;
+    max-width: 380px;
+    border-radius: 50%;
+}
+
+.projects-section {
+    background-color: rgba(44, 44, 44, 1);
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.project {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 75px;
+    width: 600px;
+    height: auto;
+}
+
+.proj-details>* {
+    background-color: rgb(255, 250, 240);
+    padding: 15px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.proj-details > p {
+    margin-top: 10px;
+}
+
+.proj-tag {
+    font-style: italic;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.date {
+    display: none;
+}
+
+.proj-pic {
+    background-color: rgb(255, 250, 240);
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(255, 250, 240);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    font-weight: 300;
+}
+
+.leftside {
+    position: absolute;
+    display: inline;
+    z-index: -1;
+    background-color: rgb(255, 250, 240);
+    height: 100vh;
+    width: 70vw;
+    top: 0;
+    left: 0;
+}
+
+.rightside {
+    position: absolute;
+    display: inline;
+    z-index: -1;
+    background-color: rgba(44, 44, 44, 1);
+    height: 100vh;
+    width: 30vw;
+    right: 0;
+    top: 0;
+}
+
+.top-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+#name-logo {
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.subpages {
+    display: flex;
+    margin-left: auto;
+}
+
+.top-link {
+    color: rgb(255, 250, 240);
+    margin-right: 30px;
+}
+
+.intro {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+}
+
+.short-bio {
+    font-size: x-large;
+    width: 600px;
+}
+
+.links {
+    background-color: rgba(255, 250, 240, 0.2);
+    padding: 30px;
+    margin-left: 27vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 250, 240);
+}
+
+.email, .phone, .linkedin, .github {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.icon img {
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 20px;
+}
