@@ -1,0 +1,58 @@
+* {
+    font-family: "monospace", "helvetica";
+    font-size: 30px;
+}
+
+.calc {
+    width: 400px;
+}
+
+.result {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 20px 15px;
+}
+
+.row {
+    display: flex;
+}
+
+.button {
+    background-color: #c9d0d4;
+    color: black;
+    height: 100px;
+    width: 100px;
+    border: 0.5px solid black;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #eef3f8;
+}
+
+.button:active {
+    background-color: #adadad;
+}
+
+.orange {
+    background-color: #e79f52;
+    color: white;
+}
+
+.orange:hover {
+    background-color: #f3b572;
+}
+
+.orange:active {
+    background-color: #d48836;
+}
+
+.med {
+    width: 200px;
+}
+
+.large {
+    width: 300px;
+}
+
